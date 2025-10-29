@@ -1,0 +1,6 @@
+# robots.txt for https://briansuin.github.io/
+# Allow all bots to crawl the site and point to the sitemap.
+User-agent: *
+Disallow:
+
+Sitemap: https://briansuin.github.io/sitemap.xml
