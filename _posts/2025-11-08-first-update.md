@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Update: Recent Trade Remedy Developments"
+title: "Recent Trade Remedy Developments"
 date: 2025-11-08
 ---
 We recently reviewed updates in global trade remedy cases, including new anti-dumping investigations launched by Mexico and the EU.  
