@@ -1,3 +1,6 @@
+---
+---
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -114,6 +117,18 @@ Major projects I have participated in include:
 </p>
     <p>Languages: EN / 中文.</p>
 
+<h2>Recent Updates</h2>
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <span style="color:#666;">{{ post.date | date: "%d %b %Y" }}</span>
+      &nbsp;—&nbsp;
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<p><a href="/updates/">View all updates →</a></p>
+    
     <h2>Contact</h2>
     <p>
     Email: <a href="mailto:sunrunbo@yingkelawyer.com">sunrunbo@yingkelawyer.com</a><br>
