@@ -1,21 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="utf-8" />
+  <title>{{ page.title }} | Brian Suin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- (Optional) canonical for SEO -->
+  <link rel="canonical" href="https://briansuin.com{{ page.url }}" />
+
+  <style>
+    /* Copy the homepage look */
+    body { max-width:780px; margin:2rem auto; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:#222; }
+    h1 { font-size:1.8rem; margin:0 0 .75rem 0; text-align:center; }
+    .muted { color:#666; }
+    header { text-align:center; margin-top:10px; }
+    header img { width:120px; height:120px; border-radius:50%; object-fit:cover; border:3px solid #ccc; }
+    main { margin-top:1.5rem; }
+    .date { text-align:center; font-style:italic; color:#666; margin-bottom:1.25rem; }
+    footer { margin-top:2.5rem; font-size:.9rem; color:#666; text-align:center; }
+    .back a { background:#1e73be; color:#fff; padding:8px 16px; border-radius:6px; text-decoration:none; }
+    .back { text-align:center; margin-top:1.5rem; }
+    a { color:#1e73be; }
+  </style>
 </head>
 <body>
-  <main>
+
+  <!-- small header to mirror homepage -->
+  <header>
+    <img src="/profile.jpg" alt="Brian Suin">
     <h1>{{ page.title }}</h1>
-    <p><em>{{ page.date | date_to_long_string }}</em></p>
+    <div class="muted">
+      <a href="https://www.yingkelawyer.com/zytd/view/8c1f0b2dbaed066b.html" target="_blank" rel="noopener noreferrer">Lawyer at Yingke Law Firm</a>
+      &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/briansuin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="date">{{ page.date | date: "%d %B %Y" }}</div>
     {{ content }}
-    <hr>
-    <p style="text-align:center;">
-      <a href="https://briansuin.com/" style="background:#007acc;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;">
-        ← Back to Homepage
-      </a>
-    </p>
+
+    <div class="back">
+      <a href="https://briansuin.com/">← Back to Homepage</a>
+    </div>
   </main>
+
+  <footer>© {{ "now" | date: "%Y" }} Brian Suin · All rights reserved.</footer>
 </body>
 </html>
