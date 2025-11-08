@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.date | date_to_long_string }}</em></p>
+    {{ content }}
+    <hr>
+    <p style="text-align:center;">
+      <a href="https://briansuin.com/" style="background:#007acc;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;">
+        ← Back to Homepage
+      </a>
+    </p>
+  </main>
+</body>
+</html>
