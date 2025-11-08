@@ -5,7 +5,7 @@ date: 2025-11-08
 ---
 
 <img src="{{ '/images/Global-one-hour-legal-services.gif' | relative_url }}"
-     alt="Yingke Thailand team – EEC site visit in Rayong EEC industrial park"
+     alt="Yingke Global One-Hour Legal Services"
      style="display:block;margin:0 auto;max-width:100%;height:auto;border-radius:8px;">
 
 
