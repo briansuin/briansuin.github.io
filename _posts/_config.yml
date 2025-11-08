@@ -1,0 +1,16 @@
+title: "Brian Suin"
+description: "International trade remedies & cross-border finance"
+url: "https://briansuin.com"   # your canonical domain
+baseurl: ""                    # keep empty for root
+
+timezone: Asia/Shanghai
+permalink: /:year/:month/:day/:title.html
+
+# Markdown engine (default on GitHub Pages)
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Keep it minimal; no custom plugins needed
+theme: null
