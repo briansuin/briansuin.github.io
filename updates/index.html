@@ -1,0 +1,37 @@
+---
+title: Updates
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Updates | Brian Suin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://briansuin.com/updates/">
+  <style>
+    body { max-width:780px; margin:2rem auto; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:#222; }
+    h1 { font-size:1.8rem; margin-bottom:.75rem; text-align:center; }
+    ul.posts { list-style: none; padding:0; margin:1rem 0; }
+    ul.posts li { margin:.6rem 0; }
+    .date { color:#666; margin-right:.5rem; white-space:nowrap; }
+    a { color:#1e73be; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    footer { margin-top:2.5rem; font-size:.9rem; color:#666; text-align:center; }
+  </style>
+</head>
+<body>
+  <h1>Updates</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <footer>© {{ "now" | date: "%Y" }} Brian Suin · All rights reserved.</footer>
+</body>
+</html>
