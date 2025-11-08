@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Yingke Thailand Team Provides Full Legal Services for Major Land Transaction in EEC"
-date: 2025-11-09
+date: 2025-11-08
 ---
 
 ![Yingke Thailand Team](https://mmbiz.qpic.cn/sz_mmbiz_gif/vicBuOa6OLYIcOAFZE4aWNXmwN4gkhbIo39FW88K7WlUcTZibIBG4PZrc6ZekoDVnGibA7P0kwVkzNaHcsHQzJ2uQ/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
