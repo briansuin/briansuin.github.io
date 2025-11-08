@@ -4,7 +4,10 @@ title: "Yingke Thailand Team Provides Full Legal Services for Major Land Transac
 date: 2025-11-08
 ---
 
-![Yingke Thailand Team](/images/Global-one-hour-legal-services.gif)
+<img src="{{ '/images/Global-one-hour-legal-services.gif' | relative_url }}"
+     alt="Yingke Thailand team – EEC site visit in Rayong EEC industrial park"
+     style="display:block;margin:0 auto;max-width:100%;height:auto;border-radius:8px;">
+
 
 In Thailand’s **Eastern Economic Corridor (EEC)**, large-scale land transactions often involve multiple legal and regulatory factors — such as investment incentives, foreign ownership limits, industrial land permits, and government approvals.  
 With the recent wave of Chinese investment, land values in well-managed industrial parks within the EEC have risen sharply, and premium plots have become strategic assets for manufacturing and supply-chain relocation.  
