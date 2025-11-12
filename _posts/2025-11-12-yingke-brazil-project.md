@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Yingke Shandong Center for Cross-Border Legal Services Provides Full Legal Support for a Chinese Listed Company’s Brazil Project"
 date: 2025-11-12
 ---
