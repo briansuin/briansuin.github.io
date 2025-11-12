@@ -1,110 +1,20 @@
 ---
+layout: base
 title: Updates
+permalink: /updates/
 ---
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Updates | Brian Suin</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://briansuin.com/updates/">
+<h1>Updates</h1>
 
-  <style>
-    /* 与首页一致的排版与颜色 */
-    body {
-      max-width: 780px;
-      margin: 2rem auto;
-      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-      color: #222;
-      background: #fff;
-    }
+<ul class="posts" style="list-style:none; padding:0; margin:1.5rem 0;">
+  {% for post in site.posts %}
+    <li style="display:flex; align-items:baseline; gap:24px; margin:.6rem 0;">
+      <span class="date" style="width:120px; text-align:right;">{{ post.date | date: "%d %b %Y" }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: .75rem;
-      text-align: center;
-      color: #111;
-    }
-
-    /* 列表样式统一 */
-    ul.posts {
-      list-style: none;
-      padding: 0;
-      margin: 1.5rem 0;
-    }
-
-    ul.posts li {
-      display: flex;
-      align-items: baseline;
-      gap: 24px;
-      margin: 0.6rem 0;
-    }
-
-    .date {
-      color: #666;
-      white-space: nowrap;
-      width: 120px;
-      text-align: right;
-    }
-
-    /* 链接颜色与首页统一 */
-    a {
-      color: #1e73be;
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #155a8a;
-    }
-
-    /* “返回首页”按钮样式，与首页一致 */
-    .back {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .back a {
-      display: inline-block;
-      background: #1e73be;
-      color: #fff;
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: background 0.2s ease;
-    }
-
-    .back a:hover {
-      background: #155a8a;
-    }
-
-    footer {
-      margin-top: 2.5rem;
-      font-size: .9rem;
-      color: #666;
-      text-align: center;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Updates</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <div class="back">
-    <a href="https://briansuin.com/">← Back to Homepage</a>
-  </div>
-
-</body>
-</html>
+<div class="back">
+  <a href="{{ '/' | relative_url }}">← Back to Homepage</a>
+</div>
