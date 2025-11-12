@@ -1,12 +1,59 @@
----
-layout: base
----
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-01QQWEYNLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-01QQWEYNLT');
+  </script>
 
-<h1>{{ page.title }}</h1>
-<div class="date">{{ page.date | date: "%d %B %Y" }}</div>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | Brian Suin</title>
 
-{{ content }}
+  <style>
+    body{
+      max-width:780px; margin:2rem auto;
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      color:#222; background:#fff;
+    }
+    h1{ font-size:1.8rem; margin:0 0 .75rem 0; color:#111; text-align:center; }
+    .date{ text-align:center; font-style:italic; color:#666; margin-bottom:1.25rem; }
+    .muted{ color:#666; }
+    /* 统一链接样式：深蓝、下划线；访问后紫色 */
+    a{ color:#003399; text-decoration:underline; transition:color .2s ease; }
+    a:hover{ color:#001a66; }
+    a:visited{ color:#660099; }
+    /* 返回按钮（置中） */
+    .back{ text-align:center; margin-top:1.5rem; }
+    .back a{
+      display:inline-block; background:#003399; color:#fff !important;
+      padding:8px 16px; border-radius:6px; font-weight:bold; text-decoration:none;
+    }
+    .back a:hover{ background:#001a66; }
+    footer{ margin-top:2.5rem; font-size:.9rem; color:#666; text-align:center; }
+    img{ max-width:100%; height:auto; }
+  </style>
+</head>
+<body>
 
-<div class="back">
-  <a href="{{ '/' | relative_url }}">← Back to Homepage</a>
-</div>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <div class="date">{{ page.date | date: "%d %B %Y" }}</div>
+  </header>
+
+  <main>
+    {{ content }}
+
+    <div class="back">
+      <a href="https://briansuin.com/">← Back to Homepage</a>
+    </div>
+  </main>
+
+  <footer>© <span id="y"></span> Brian Suin · All rights reserved.</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
