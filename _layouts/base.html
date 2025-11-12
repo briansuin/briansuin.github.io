@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title }} | {% endif %}Brian Suin</title>
 
-  <!-- 通用样式（与首页一致） -->
+  <!-- 统一全站样式 -->
   <style>
     body {
       max-width: 780px;
@@ -23,30 +23,52 @@
       color: #222;
       background: #fff;
     }
+
     h1 { font-size: 1.8rem; margin: 0 0 .75rem 0; color:#111; }
     h2 { font-size: 1.4rem; margin-top: 2rem; color:#111; }
 
     .muted { color:#666; }
     .date  { color:#666; }
 
-    /* 链接统一 */
-    a { color:#1e73be; text-decoration:none; transition: color .2s ease; }
-    a:hover { text-decoration: underline; color:#155a8a; }
+    /* 链接统一风格 */
+    a {
+      color: #003399;                  /* 深蓝色 */
+      text-decoration: underline;      /* 默认带下划线 */
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      color: #001a66;                  /* hover 时更深蓝 */
+    }
+    a:visited {
+      color: #660099;                  /* 访问后变紫色 */
+    }
 
-    /* 返回按钮通用样式 */
+    /* 返回按钮 */
     .back { text-align:center; margin-top: 2rem; }
     .back a {
-      display:inline-block; background:#1e73be; color:#fff;
-      padding:8px 16px; border-radius:6px; font-weight:bold; text-decoration:none;
-      transition: background .2s ease;
+      display:inline-block;
+      background:#003399;
+      color:#fff !important;
+      padding:8px 16px;
+      border-radius:6px;
+      font-weight:bold;
+      text-decoration:none;
+      transition: background 0.2s ease;
     }
-    .back a:hover { background:#155a8a; }
+    .back a:hover {
+      background:#001a66;
+    }
 
-    footer { margin-top: 2.5rem; font-size:.9rem; color:#666; text-align:center; }
+    footer {
+      margin-top: 2.5rem;
+      font-size: .9rem;
+      color: #666;
+      text-align: center;
+    }
   </style>
 </head>
-<body>
 
+<body>
   <main>
     {{ content }}
   </main>
