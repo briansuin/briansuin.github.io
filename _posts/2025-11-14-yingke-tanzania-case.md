@@ -4,7 +4,7 @@ title: "Yingke Lawyers Assist Tanzanian Client in Recovering Losses From a Cross
 date: 2025-11-14
 ---
 
-A Tanzanian client encountered malicious breach of contract and fraudulent conduct during the performance of a cross-border sales agreement with a Chinese merchant. The client was unable to reclaim the payment and faced significant obstacles in pursuing cross-border remedies. In response, the client engaged the **Yingke Foreign-related Legal Services Center** to provide comprehensive legal assistance.
+A Tanzanian client encountered malicious breach of contract and fraudulent conduct during the performance of a cross-border sales agreement with a Chinese merchant. The client was unable to reclaim the payment and faced significant obstacles in pursuing cross-border remedies. In response, the client engaged the Yingke Foreign-related Legal Services Center to provide comprehensive legal assistance.
 
 Upon accepting the engagement, the Yingke Jinan Foreign-related Legal Team developed a dual-track strategy tailored to the particularities of cross-border commercial disputes and the procedural requirements of cases involving foreign nationals:  
 criminal complaint + civil negotiation.
