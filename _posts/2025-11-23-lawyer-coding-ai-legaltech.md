@@ -1,6 +1,6 @@
 ---
 title: "When a Lawyer Starts Coding: Reflections on Boundary-Crossing and Legal Tech in the AI Era"
-date: 2025-01-02
+date: 2025-11-23
 layout: post
 description: "Developing a smart video evidence tool opened new perspectives on how AI empowers lawyers to become boundary-crossing innovators in legal tech."
 ---
