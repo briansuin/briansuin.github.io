@@ -60,8 +60,8 @@ If you are interested in how automation can streamline professional workflows, I
 https://github.com/briansuin/LegalDocGen
 
 ### Project & Template Management
-![Document Assistant – project-based template management for legal documents](images/DocGen1.jpg)
+![Document Assistant – project-based template management for legal documents](/images/DocGen1.jpg)
 
 ### One-Click Batch Generation Form
-![Document Assistant – structured data input and batch Word document generation](images/DocGen2.jpg)
+![Document Assistant – structured data input and batch Word document generation](/images/DocGen2.jpg)
 
