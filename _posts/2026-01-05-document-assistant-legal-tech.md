@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🚀Optimizing Workflows: My Self-Developed Tool “Document Assistant” ⚖️"
-date: 2025-01-05
+date: 2026-01-05
 description: "A cross-platform document automation tool built by a lawyer to streamline repetitive legal document workflows using Python and Word templates."
 ---
 
