@@ -124,8 +124,8 @@
 
     <p>Languages: 中文 / EN.</p>
 
-  <h2>Recent Updates</h2>
-  <ul>
+<h2>Recent Updates</h2>
+<ul>
   {% for post in site.posts limit:10 %}
     <li>
       <span style="color:#666;">{{ post.date | date: "%d %b %Y" }}</span>
@@ -133,8 +133,8 @@
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-  </ul>
-  <p><a href="/updates/">View all updates →</a></p>
+</ul>
+<p><a href="/updates/">View all updates →</a></p>
 
     <h2>Contact</h2>
     <p>
