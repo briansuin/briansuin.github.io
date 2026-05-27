@@ -31,4 +31,4 @@ Modern trade law requires more than just legal interpretation; it requires the a
 If you are a trade professional or a data-driven lawyer, I’d love to connect and discuss how we can further automate the complexities of international trade defense.
 
 The related script is available here:  
-[AD weighted-average calculation script](https://github.com/briansuin/briansuin.github.io/blob/main/images/AD_TOOL_SUMPRODUCT.js)
+[AD weighted-average calculation script](https://gist.github.com/briansuin/d266f08174585f419702eacd613a52c0)
