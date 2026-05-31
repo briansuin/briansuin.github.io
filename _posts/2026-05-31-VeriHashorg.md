@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VeriHash.org and My Thoughts on AI as a New Kind of Intermediary"
-date: 2026-05-12
+date: 2026-05-31
 description: "A reflection on the role of intermediaries, trusted third parties, and AI-readable work credentials in the AI era."
 ---
 
